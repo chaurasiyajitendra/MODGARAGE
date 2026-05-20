@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* *{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html,
+body,
+#root{
+  width:100%;
+  min-height:100%;
+  background:black;
+  color:white;
+  font-family:sans-serif;
+}
+
+body{
+  overflow-x:hidden;
+}
+
+::-webkit-scrollbar{
+  width:0px; */
+/* } */
+
+/* Remove Scrollbar */
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+@font-face {
+  font-family: logo;
+  src: url("./WorkforceCombinePersonalUseRegular-V4qrw.otf");
+}
