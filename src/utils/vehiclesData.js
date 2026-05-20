@@ -255,3 +255,14 @@ export const carsData = [
     stats: { speed: 88, comfort: 50, handling: 92, durability: 90 } 
   }
 ];
+
+export const CATEGORY_ACCENTS = {
+  "Sports": "#FF5733",
+  "Off-Road": "#4CAF50",
+  "Luxury": "#9C27B0",
+  "Supercar": "#E91E63",
+  "Muscle": "#3F51B5",
+  "Classic": "#795548",
+  "Hatchback": "#009688",
+  "Sedan": "#607D8B"
+};
